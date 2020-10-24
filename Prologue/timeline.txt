@@ -1,0 +1,7 @@
+Made the repository and cloned it for VSCode
+installed tensorflow via 'pip3 install tensorflow'
+ran example code from the tensorflow official guide
+uninstalled tensorflow
+made a virtual evnvironment called venv
+installed tensorflow in venv
+ran the example code again
