@@ -1,0 +1,53 @@
+Accuracy: 2.997496620391771%
+Accuracy: 23.430135776249262%
+Accuracy: 23.66961823857888%
+Accuracy: 37.80063246648987%
+Accuracy: 38.901997227423855%
+Accuracy: 40.91131533511435%
+Accuracy: 41.00064215728179%
+Accuracy: 45.37850485100569%
+Accuracy: 47.86385925437594%
+Accuracy: 53.38230610910215%
+30000
+Coefficients: [-1.27988223 -1.95300235  0.70962668 -1.11191377  1.06062822 -0.69112734]
+Intercept: 10.624928237084253
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 14
+Data: [0 0 0 0 0 1], Prediction: 9.933800900692734, Actual score: 10
+Data: [0 0 0 1 1 1], Prediction: 9.882515347610715, Actual score: 16
+Data: [0 0 1 1 0 1], Prediction: 9.531513812267603, Actual score: 13
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 15
+Data: [0 0 1 0 1 1], Prediction: 11.704055797187092, Actual score: 19
+Data: [0 3 0 1 1 0], Prediction: 4.714635641181673, Actual score: 0
+Data: [0 0 1 0 1 0], Prediction: 12.39518313357861, Actual score: 9
+Data: [0 1 1 0 0 1], Prediction: 8.690425233661502, Actual score: 12
+Data: [0 0 0 0 0 0], Prediction: 10.624928237084253, Actual score: 14
+Data: [0 0 0 0 0 1], Prediction: 9.933800900692734, Actual score: 12
+Data: [0 0 1 0 0 1], Prediction: 10.643427581268355, Actual score: 13
+Data: [0 0 1 0 1 0], Prediction: 12.39518313357861, Actual score: 15
+Data: [0 0 1 0 1 0], Prediction: 12.39518313357861, Actual score: 13
+Data: [0 0 0 1 1 1], Prediction: 9.882515347610715, Actual score: 9
+Data: [1 0 0 0 1 1], Prediction: 9.714546884317771, Actual score: 11
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 14
+Data: [0 0 1 0 1 0], Prediction: 12.39518313357861, Actual score: 10
+Data: [0 1 0 0 0 1], Prediction: 7.980798553085879, Actual score: 0
+Data: [0 0 0 1 1 0], Prediction: 10.573642684002236, Actual score: 10
+Data: [0 0 0 1 1 0], Prediction: 10.573642684002236, Actual score: 10
+Data: [0 0 0 0 1 1], Prediction: 10.99442911661147, Actual score: 11
+Data: [0 2 0 0 1 0], Prediction: 7.779551757789282, Actual score: 9
+Data: [0 0 0 1 1 0], Prediction: 10.573642684002236, Actual score: 12
+Data: [0 0 0 1 1 1], Prediction: 9.882515347610715, Actual score: 11
+Data: [1 0 1 0 1 1], Prediction: 10.424173564893394, Actual score: 8
+Data: [0 0 0 0 0 1], Prediction: 9.933800900692734, Actual score: 0
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 11
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 11
+Data: [0 0 0 1 1 0], Prediction: 10.573642684002236, Actual score: 0
+Data: [0 0 1 1 1 0], Prediction: 11.283269364577858, Actual score: 12
+Data: [0 3 1 1 0 1], Prediction: 3.6725067694470406, Actual score: 7
+Data: [0 2 1 0 0 0], Prediction: 7.428550222446169, Actual score: 9
+Data: [0 1 0 1 0 0], Prediction: 7.560012120476646, Actual score: 0
+Data: [0 1 0 0 1 1], Prediction: 9.041426769004616, Actual score: 0
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 8
+Data: [1 0 0 0 0 0], Prediction: 9.345046004790555, Actual score: 6
+Data: [0 0 0 0 1 0], Prediction: 11.685556453002988, Actual score: 14
+Data: [0 0 0 1 0 1], Prediction: 8.82188713169198, Actual score: 14
+Data: [1 0 0 0 0 0], Prediction: 9.345046004790555, Actual score: 11

@@ -8,8 +8,18 @@ import matplotlib.pyplot as pyplot
 from matplotlib import style
 
 data = pd.read_csv("Linear-Regression/student-dataset/student-mat.csv", sep = ";") #load dataset
-data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]] #trim dataset to selected attributes
-
+data = data[["G3", "schoolsup", "failures", "romantic"]] #trim dataset to selected attributes
+# data[["sex"]] = data[["sex"]].replace("M", 1)
+# data[["sex"]] = data[["sex"]].replace("F", 0)
+# data[["school"]] = data[["school"]].replace("GP", 0)
+# data[["school"]] = data[["school"]].replace("MS", 1)
+# data[["address"]] = data[["address"]].replace("R", 1)
+# data[["address"]] = data[["address"]].replace("U", 0)
+# data[["famsize"]] = data[["famsize"]].replace("LE3", 1)
+# data[["famsize"]] = data[["famsize"]].replace("GT3", 0)
+for attrib in ["schoolsup", "romantic"]:
+    data[[attrib]] = data[[attrib]].replace("yes", 1)
+    data[[attrib]] = data[[attrib]].replace("no", 0)
 predict = "G3" #Set the label(the thing to predict using attributes)
 
 x = np.array(data.drop([predict], 1)) #making an array of the attributes (exluding the label)
@@ -17,7 +27,7 @@ y = np.array(data[predict]) #making an array of the label's real values
 
 i = 0
 best = 0
-while True:
+while i < 30000:
     i += 1
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size = 0.1)
     #splitting x and y to use one portion for training and the other for testing (in this case 10%)
@@ -29,13 +39,13 @@ while True:
     if acc > best:
         print(f'Accuracy: {acc*100}%')
         best = acc
-    if acc > 0.98:
-        with open("stud_model.pickle", "wb") as f:
+        with open("stud_model.pickle", "wb") as f: #saving the model
             pickle.dump(linear, f)
-        break
+        if acc > 0.99:
+            break
 print(i)
 inp = open("stud_model.pickle", "rb")
-linear = pickle.load(inp)
+linear = pickle.load(inp) #load the model
 
 print(f'Coefficients: {linear.coef_}') #.coef_ returns a list of the coefficients that make the best fit line
 print(f'Intercept: {linear.intercept_}') #.intercept_ returns the intercept used in the best fit line
