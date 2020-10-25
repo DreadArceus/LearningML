@@ -1,0 +1,171 @@
+Accuracy: 78.70019333352835%
+Accuracy: 90.12528686220385%
+Accuracy: 91.19278276319262%
+Accuracy: 91.72981382297164%
+Accuracy: 93.51512269548091%
+Accuracy: 93.91288330646739%
+Accuracy: 95.99060025348956%
+Accuracy: 96.25936913825068%
+Accuracy: 96.50319163426008%
+Accuracy: 96.71131441733309%
+Accuracy: 96.97792278754696%
+Accuracy: 97.38088819889329%
+Accuracy: 97.41392634585121%
+Accuracy: 97.80632867558822%
+Accuracy: 98.12934139560954%
+Just crossed 100000
+Accuracy: 98.1621791214075%
+Another one! 138607
+Just crossed 200000
+Just crossed 300000
+Just crossed 400000
+Just crossed 500000
+Another one! 544053
+Just crossed 600000
+Just crossed 700000
+Just crossed 800000
+Just crossed 900000
+Just crossed 1000000
+Just crossed 1100000
+Just crossed 1200000
+Just crossed 1300000
+Just crossed 1400000
+Just crossed 1500000
+Just crossed 1600000
+Just crossed 1700000
+Just crossed 1800000
+Just crossed 1900000
+Another one! 1985545
+Just crossed 2000000
+Just crossed 2100000
+Another one! 2131449
+Just crossed 2200000
+Accuracy: 98.33427705385849%
+Just crossed 2300000
+Just crossed 2400000
+Another one! 2427564
+Just crossed 2500000
+Just crossed 2600000
+Just crossed 2700000
+Another one! 2775007
+Another one! 2788885
+Just crossed 2800000
+Just crossed 2900000
+Another one! 2907906
+Just crossed 3000000
+Just crossed 3100000
+Just crossed 3200000
+Just crossed 3300000
+Another one! 3306331
+Another one! 3316930
+Just crossed 3400000
+Another one! 3462779
+Just crossed 3500000
+Just crossed 3600000
+Another one! 3628876
+Just crossed 3700000
+Just crossed 3800000
+Another one! 3846689
+Another one! 3846832
+Just crossed 3900000
+Just crossed 4000000
+Another one! 4074016
+Accuracy: 98.43530720252758%
+Just crossed 4100000
+Just crossed 4200000
+Another one! 4230158
+Just crossed 4300000
+Another one! 4351759
+Just crossed 4400000
+Just crossed 4500000
+Just crossed 4600000
+Just crossed 4700000
+Just crossed 4800000
+Another one! 4850120
+Just crossed 4900000
+Just crossed 5000000
+Just crossed 5100000
+Another one! 5167677
+Just crossed 5200000
+Another one! 5207534
+Just crossed 5300000
+Just crossed 5400000
+Just crossed 5500000
+Another one! 5538905
+Another one! 5581059
+Just crossed 5600000
+Just crossed 5700000
+Just crossed 5800000
+Just crossed 5900000
+Another one! 5939600
+Just crossed 6000000
+Another one! 6007790
+Just crossed 6100000
+Just crossed 6200000
+Just crossed 6300000
+Just crossed 6400000
+Just crossed 6500000
+Another one! 6592552
+Just crossed 6600000
+Just crossed 6700000
+Another one! 6759917
+Just crossed 6800000
+Just crossed 6900000
+Just crossed 7000000
+Just crossed 7100000
+Just crossed 7200000
+Another one! 7263952
+Just crossed 7300000
+Just crossed 7400000
+Just crossed 7500000
+Just crossed 7600000
+Another one! 7678926
+Just crossed 7700000
+Just crossed 7800000
+Just crossed 7900000
+Just crossed 8000000
+Just crossed 8100000
+Just crossed 8200000
+Just crossed 8300000
+Coefficients: [0.16408127 0.99033144 0.34605516 0.53534601]
+Intercept: -3.4255694610194958
+Data: [10 10  5  0], Prediction: 9.848833381749024, Actual score: 11
+Data: [10 10  5  0], Prediction: 9.848833381749024, Actual score: 10
+Data: [ 8 11  4  0], Prediction: 10.164947125569322, Actual score: 11
+Data: [7 0 4 0], Prediction: -0.8927799515832495, Actual score: 0
+Data: [12 12  4  1], Prediction: 12.346949629093702, Actual score: 11
+Data: [6 7 5 0], Prediction: 6.221514008916756, Actual score: 0
+Data: [15 14  4  0], Prediction: 14.284510293745292, Actual score: 14
+Data: [7 9 4 0], Prediction: 8.020202985538752, Actual score: 8
+Data: [13 14  5  0], Prediction: 14.302402926924728, Actual score: 14
+Data: [13 14  5  0], Prediction: 14.302402926924728, Actual score: 13
+Data: [8 6 3 1], Prediction: 5.402580780478862, Actual score: 5
+Data: [10 11  4  0], Prediction: 10.493109655798456, Actual score: 10
+Data: [7 9 4 0], Prediction: 8.020202985538752, Actual score: 8
+Data: [18 19  3  0], Prediction: 19.382356112970424, Actual score: 19
+Data: [7 7 4 1], Prediction: 6.574886116230864, Actual score: 5
+Data: [14 13  5  0], Prediction: 13.476152754581292, Actual score: 14
+Data: [12 12  4  1], Prediction: 12.346949629093702, Actual score: 12
+Data: [14 11  3  0], Prediction: 10.803379552848154, Actual score: 13
+Data: [9 9 3 0], Prediction: 8.002310352359318, Actual score: 10
+Data: [15 15  4  0], Prediction: 15.274841731203292, Actual score: 15
+Data: [7 7 3 0], Prediction: 5.693484947214184, Actual score: 9
+Data: [16 16  4  0], Prediction: 16.42925443377586, Actual score: 16
+Data: [ 9 11  4  0], Prediction: 10.329028390683888, Actual score: 11
+Data: [14 12  4  0], Prediction: 12.139766153714724, Actual score: 12
+Data: [11 11  3  0], Prediction: 10.311135757504452, Actual score: 10
+Data: [8 8 4 0], Prediction: 7.19395281319532, Actual score: 10
+Data: [10 10  4  0], Prediction: 9.502778218340454, Actual score: 10
+Data: [10  9  5  0], Prediction: 8.858501944291024, Actual score: 10
+Data: [6 5 2 0], Prediction: 3.2026856437750464, Actual score: 0
+Data: [13 11  4  0], Prediction: 10.985353451142156, Actual score: 11
+Data: [6 7 3 0], Prediction: 5.529403682099616, Actual score: 0
+Data: [10  9  4  0], Prediction: 8.512446780882454, Actual score: 9
+Data: [16 12  2  0], Prediction: 11.775818357126719, Actual score: 13
+Data: [15 14  5  0], Prediction: 14.63056545715386, Actual score: 15
+Data: [14 13  3  0], Prediction: 12.784042427764152, Actual score: 13
+Data: [ 9 10  4  0], Prediction: 9.338696953225888, Actual score: 10
+Data: [15 15  5  0], Prediction: 15.62089689461186, Actual score: 15
+Data: [10 10  4  0], Prediction: 9.502778218340454, Actual score: 10
+Data: [14 13  4  0], Prediction: 13.130097591172724, Actual score: 14
+Data: [7 0 5 0], Prediction: -0.5467247881746804, Actual score: 0

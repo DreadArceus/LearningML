@@ -1,0 +1,7 @@
+The best accuracy i got was 98.5% with G1, G2, famrel, schoolsup
+The best no_G challenge accuracy i got was 53%
+JSON exists and its hard to use with sklearn
+    basically stores all the parts of a model as normal numbers
+    also the size of JSON files is < the size of pickle files
+    gotta check it out later
+    (using pickle for now, although it is not safe if obtained from the internet)

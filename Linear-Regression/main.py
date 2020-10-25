@@ -8,7 +8,7 @@ import matplotlib.pyplot as pyplot
 from matplotlib import style
 
 data = pd.read_csv("Linear-Regression/student-dataset/student-mat.csv", sep = ";") #load dataset
-data = data[["G3", "schoolsup", "failures", "romantic"]] #trim dataset to selected attributes
+data = data[["G1", "G2", "G3", "famrel", "schoolsup"]] #trim dataset to selected attributes
 # data[["sex"]] = data[["sex"]].replace("M", 1)
 # data[["sex"]] = data[["sex"]].replace("F", 0)
 # data[["school"]] = data[["school"]].replace("GP", 0)
@@ -17,9 +17,10 @@ data = data[["G3", "schoolsup", "failures", "romantic"]] #trim dataset to select
 # data[["address"]] = data[["address"]].replace("U", 0)
 # data[["famsize"]] = data[["famsize"]].replace("LE3", 1)
 # data[["famsize"]] = data[["famsize"]].replace("GT3", 0)
-for attrib in ["schoolsup", "romantic"]:
+for attrib in ["schoolsup"]:
     data[[attrib]] = data[[attrib]].replace("yes", 1)
     data[[attrib]] = data[[attrib]].replace("no", 0)
+
 predict = "G3" #Set the label(the thing to predict using attributes)
 
 x = np.array(data.drop([predict], 1)) #making an array of the attributes (exluding the label)
@@ -27,7 +28,7 @@ y = np.array(data[predict]) #making an array of the label's real values
 
 i = 0
 best = 0
-while i < 30000:
+while True:
     i += 1
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size = 0.1)
     #splitting x and y to use one portion for training and the other for testing (in this case 10%)
@@ -36,6 +37,8 @@ while i < 30000:
     linear = linear_model.LinearRegression() #free model for LR, thanks sklearn
     linear.fit(x_train, y_train) #plots the best fit line in multidimensional space using the values given
     acc = linear.score(x_test, y_test) #uses the best fit line to determine the label and returns the accuracy
+    if i % 100000 == 0:
+        print(f'Just crossed {i}')
     if acc > best:
         print(f'Accuracy: {acc*100}%')
         best = acc
@@ -43,6 +46,8 @@ while i < 30000:
             pickle.dump(linear, f)
         if acc > 0.99:
             break
+    elif acc > 0.98:
+        print("Another one!", i)
 print(i)
 inp = open("stud_model.pickle", "rb")
 linear = pickle.load(inp) #load the model
