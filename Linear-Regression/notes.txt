@@ -1,5 +1,6 @@
 The best accuracy i got was 98.5% with G1, G2, famrel, schoolsup
 The best no_G challenge accuracy i got was 53%
+matplotlib is cool but i only know how to make a scatter plot graph, sad
 JSON exists and its hard to use with sklearn
     basically stores all the parts of a model as normal numbers
     also the size of JSON files is < the size of pickle files
