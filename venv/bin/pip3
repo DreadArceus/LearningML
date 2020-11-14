@@ -1,4 +1,4 @@
-#!/usr/local/opt/python@3.8/bin/python3.8
+#!/Users/dreadarceus/github/LearningML/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
