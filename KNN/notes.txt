@@ -1,0 +1,4 @@
+Another simple one
+    literally just distance formula on all the training data and then look for the K nearest data-points
+    after that whatever class is dominant in the KNN becomes the prediction
+    yay
